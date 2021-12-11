@@ -1696,16 +1696,19 @@ body{
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-   background-color: #05cb62 ;
-  border-color: #05cb62 ;
+  background-color: #414656 ;
+  border-color: #414656 ;
+}
+.page-link {
+  background-color: #d8dbde;
 }
 .page-link:focus {
   z-index: 3;
-  color: #61d087;
-  background-color: #eef2f7;
+  color: #414656;
+  background-color: #d8dbde;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 .2rem rgba(114,124,245,.25);
-  box-shadow: 0 0 0 .2rem rgba(114, 245, 153, 0.25);
+  -webkit-box-shadow: 0 0 0 .2rem rgba(114, 177, 245, 0.25);
+  box-shadow: 0 0 0 .2rem rgba(114, 177, 245, 0.25);
 }
 .flip {
   -webkit-transform: scaleX(-1);

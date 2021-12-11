@@ -90,9 +90,9 @@
 			<div class="font-courier font-15 c-dev mt-5" id="works">/ Works</div>
 			<h2>Previous Works</h2>
 			<!-- <p>These are my previous works along my journey.</p> -->
-			<div class="row mt-2" >
+			<div class="row mt-2" id="_works_list">
 
-				<div class="col-md-3 dev-service-container">
+				<!-- <div class="col-md-3 dev-service-container">
 					<div class="margin-bottom-20 margin-top-10  cursor-pointer">  
 	                  <div id="featured-style" class="img-overlay img-scale-animate" onclick="">
 	                    <div class="text-bg" ></div>
@@ -155,10 +155,13 @@
 	                  </div>
 	                </div> 
 				</div>
-
+ -->
 				
 
 
+			</div>
+			<div class="mt-1" id="_works_list_pagination">
+				
 			</div>
 
 		</div>
