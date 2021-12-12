@@ -17,7 +17,7 @@
 	                                <a href="https://t.me/kenkarlo" target="_blank" rel="noopener nofollow" class=" btn-social-outline btn-social twitter-c "><i class="mdi mdi-telegram font-20"></i></a>
 	                            </li>
 	                            <li class="list-inline-item text-center">
-	                                <a href="https://github.com/blankcodes" target="_blank" rel="noopener nofollow" class=" btn-social-outline btn-social medium-c "><i class="mdi mdi-github font-20"></i></a>
+	                                <a href="https://github.com/bykenkarlo" target="_blank" rel="noopener nofollow" class=" btn-social-outline btn-social medium-c "><i class="mdi mdi-github font-20"></i></a>
 	                            </li>
 	                        </ul>
 			    		</div>
