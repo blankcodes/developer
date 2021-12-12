@@ -16,7 +16,7 @@
 		<!-- bundle -->
 		<script>
 			var base_url = '<?=base_url();?>';
-			var nonce = '<?=$nonce;?>';
+			var nonce = '<?=$nonce;?>'; 
 		</script>
 	    <script src="<?=base_url('assets/js/vendor.min.js')?>"></script>
 	    <script src="<?=base_url('assets/js/app.min.js')?>"></script>
