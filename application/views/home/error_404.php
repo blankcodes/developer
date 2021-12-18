@@ -14,9 +14,6 @@
 <link href="<?=base_url()?>assets/css/default.css" rel="stylesheet" type="text/css" id="light-style" />
 <link href="<?=base_url()?>assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style" />
 
-<!-- Script  -->
-<script src="<?=base_url()?>/assets/js/jquery-3.2.1.min.js"></script>
-
 <style type="text/css">
 * {
   font-family: 'Poppins', sans-serif;

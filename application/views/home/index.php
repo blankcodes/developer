@@ -56,7 +56,7 @@
 
 	<div class="body-container padding-top-70 padding-bottom-30 c-dwhite"  >
 		<div class="container">
-			<div class="font-courier font-15 c-dev" id="services">/ Services</div>
+			<div class="font-courier font-15 c-dev" id="services">/ Services {}</div>
 			<h2>Services offered</h2>
 			<!-- <p>Services I offered </p> -->
 			<div class="row mt-2" >
@@ -87,81 +87,61 @@
 	</div>
 	<div class="work-container padding-top-50 padding-bottom-60 c-dwhite">
 		<div class="container container-hr">
-			<div class="font-courier font-15 c-dev mt-5" id="works">/ Works</div>
+			<div class="font-courier font-15 c-dev mt-5" id="works">/ Works {}</div>
 			<h2>Previous Works</h2>
 			<!-- <p>These are my previous works along my journey.</p> -->
 			<div class="row mt-2" id="_works_list">
 
-				<!-- <div class="col-md-3 dev-service-container">
-					<div class="margin-bottom-20 margin-top-10  cursor-pointer">  
-	                  <div id="featured-style" class="img-overlay img-scale-animate" onclick="">
-	                    <div class="text-bg" ></div>
-	                    <amp-img layout="responsive"  width="800" height="500" src="<?=base_url('assets/images/works/herbal_house_ph.webp')?>" alt=""></amp-img>
-	                    <div class="work-title-div">
-	                    	<span class="badge bg-primary">MLM</span>
-	                    	<span class="badge bg-primary">Ecommerce</span>
-	                    	<span class="badge bg-primary">DropShipping</span>
-	                    	<h3 class="work-title" >Herbal House Philippines</h3>
-	                    	<span class="small"><a target="_blank" class="c-white" href="http://herbalhouseph.com">herbalhouseph.com</a></span>
-	                    </div>
-	                  </div>
-	                </div> 
-				</div>
-
-				
-				<div class="col-md-3 dev-service-container">
-					<div class="margin-bottom-20 margin-top-10  cursor-pointer">  
-	                  <div id="featured-style" class="img-overlay img-scale-animate" onclick="">
-	                    <div class="text-bg" ></div>
-	                    <amp-img layout="responsive"  width="800" height="500" src="<?=base_url('assets/images/works/kenkarlo.webp')?>" alt=""></amp-img>
-	                    <div class="work-title-div">
-	                    	<span class="badge bg-primary">Blog</span>
-	                    	<span class="badge bg-primary">Directory</span>
-	                    	<span class="badge bg-primary">News Site</span>
-	                    	<h3 class="work-title" >KenKarlo</h3>
-	                    	<span class="small"><a target="_blank" class="c-white" href="http://kenkarlo.com">kenkarlo.com</a></span>
-	                    </div>
-	                  </div>
-	                </div> 
-				</div>
-
-				<div class="col-md-3 dev-service-container">
-					<div class="margin-bottom-20 margin-top-10  cursor-pointer">  
-	                  <div id="featured-style" class="img-overlay img-scale-animate" onclick="">
-	                    <div class="text-bg" ></div>
-	                    <amp-img layout="responsive"  width="800" height="500" src="<?=base_url('assets/images/works/xquareshop.webp')?>" alt=""></amp-img>
-	                    <div class="work-title-div">
-	                    	<span class="badge bg-primary">Ecommerce</span>
-	                    	<span class="badge bg-primary">Gaming</span>
-	                    	<h3 class="work-title" >Xquareshop</h3>
-	                    	<span class="small"><a target="_blank" class="c-white" href="http://xquareshop.com">xquareshop.com</a></span>
-	                    </div>
-	                  </div>
-	                </div> 
-				</div>
-
-				<div class="col-md-3 dev-service-container">
-					<div class="margin-bottom-20 margin-top-10  cursor-pointer">  
-	                  <div id="featured-style" class="img-overlay img-scale-animate" onclick="">
-	                    <div class="text-bg" ></div>
-	                    <amp-img layout="responsive"  width="800" height="500" src="<?=base_url('assets/images/works/zeend.webp')?>" alt=""></amp-img>
-	                    <div class="work-title-div">
-	                    	<span class="badge bg-primary">Ecommerce</span>
-	                    	<span class="badge bg-primary">Startup</span>
-	                    	<span class="badge bg-primary">MSME</span>
-	                    	<h3 class="work-title" >Zeend</h3>
-	                    	<span class="small"><a target="_blank" class="c-white" href="http://zeend.com">zeend.com</a></span>
-	                    </div>
-	                  </div>
-	                </div> 
-				</div>
- -->
-				
-
-
 			</div>
 			<div class="mt-1" id="_works_list_pagination">
 				
+			</div>
+
+			<div class="mt-3" id="">
+				<div class="font-courier font-15 c-dev mt-5" id="works">/ Payment Gateway Integrations {}</div>
+				<div class="mt-1 row">
+					<div class="col-md-3 dev-service-container">
+						<div class="margin-bottom-20 margin-top-10  cursor-pointer">  
+							<div id="featured-style" class=" img-scale-animate" onclick="">
+								<a href="https://developers.paymaya.com/" target="_blank" rel="noopener nofollow noreferrer">
+									<amp-img layout="responsive" width="800" height="500" class="br-8" src="<?=base_url(); ?>assets/images/works/paymaya.webp" alt="paymaya"></amp-img>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 dev-service-container">
+						<div class="margin-bottom-20 margin-top-10  cursor-pointer">  
+							<div id="featured-style" class=" img-scale-animate" onclick="">
+								<a href="https://www.dragonpay.ph/developers/" target="_blank" rel="noopener nofollow noreferrer">
+									<amp-img layout="responsive" width="800" height="500" class="br-8" src="<?=base_url(); ?>assets/images/works/dragonpay_.webp" alt="dragonpay"></amp-img>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 dev-service-container">
+						<div class="margin-bottom-20 margin-top-10  cursor-pointer">  
+							<div id="featured-style" class=" img-scale-animate" onclick="">
+								<a href="https://developer.paypal.com/home" target="_blank" rel="noopener nofollow noreferrer">
+									<amp-img layout="responsive" width="800" height="500" class="br-8" src="<?=base_url(); ?>assets/images/works/paypal.webp" alt="paypal"></amp-img>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 dev-service-container">
+						<div class="margin-bottom-20 margin-top-10  cursor-pointer">  
+							<div id="featured-style" class=" img-scale-animate" onclick="">
+								<a href="https://www.blockonomics.co/views/api.html" target="_blank" rel="noopener nofollow noreferrer">
+									<amp-img layout="responsive" width="800" height="500" class="br-8" src="<?=base_url(); ?>assets/images/works/bitcoin.webp" alt="bitcoin"></amp-img>
+								</a>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
 			</div>
 
 		</div>
@@ -173,7 +153,7 @@
 				
 				
 				<div class="col-lg-6 ">
-					<div class="font-courier font-15 c-dev">/ Contact Me</div>
+					<div class="font-courier font-15 c-dev">/ Contact Me  {}</div>
 					<div class="mt-3">
 						<h2 class="contact-title">Got a project? <br>Let's talk.</h2>
 					</div>

@@ -2055,6 +2055,12 @@ body{
 .br-15{
   border-radius: 15px !important;
 }
+.br-10{
+  border-radius: 10px !important;
+}
+.br-8{
+  border-radius: 8px !important;
+}
 .home-navbar{
   background-color: #fff !important;
   color: #515659 !important;
