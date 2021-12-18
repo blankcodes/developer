@@ -6,7 +6,7 @@
 
                 <!-- logo -->
                 <a href="" class="navbar-brand me-lg-5">
-                    <img src="<?=base_url('assets/images/square_logo.png')?>" alt="Ken Karlo: Developer" class="logo-dark" height="89" />
+                    <img src="<?=base_url('assets/images/favicon.png')?>" alt="Ken Karlo: Developer" class="logo-dark" height="89" />
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"

@@ -80,4 +80,8 @@ class Main extends CI_Controller {
         }
         $this->output->set_content_type('application/json')->set_output(json_encode($data));
     }
+    public function cv(){
+        header('location:'.base_url('assets/pdf/kkp_resume_v1.pdf'));
+    }
+
 }
