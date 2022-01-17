@@ -2,3 +2,21 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L]
+
+# Security Headers
+<IfModule mod_headers.c>
+# Strict-Transport-Security
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
+
+# Content-Security-Policy
+Header set Content-Security-Policy "default-src 'self' 'unsafe-inline' *.googleapis.com *.gstatic.com *.ampproject.org; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.ampproject.org; manifest-src 'self';"
+
+# X-Frame-Options
+Header set X-Frame-Options "DENY"
+
+# X-Content-Type nosniff
+Header set X-Content-Type-Options nosniff
+
+# Noreferrer policy
+Header always set Referrer-Policy "same-origin"
+</IfModule>

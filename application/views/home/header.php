@@ -3,22 +3,28 @@
     <head>
         <meta charset="utf-8" />
         <title><?=$siteSetting['website_name']?></title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width,user-scalable=no">
         <meta name="description" content="<?=$siteSetting['description']?>"/>
         <meta name="theme-color" content="#000" />
         <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="apple-mobile-web-app-title" content="<?=$siteSetting['website_name']?>">
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="<?=base_url()?>assets/images/favicon.png">
+        <link rel="shortcut icon" href="<?=base_url()?>assets/images/favicon.webp">
         <!-- App css -->
         <link href="<?=base_url()?>assets/css/icons.min.css" rel="stylesheet" type="text/css" />
         <link href="<?=base_url()?>assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style" />
         <link href="<?=base_url()?>assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style" />
         <link href="<?=base_url()?>assets/css/default.css" rel="stylesheet" type="text/css" />
+        <link href="<?=base_url()?>assets/css/aos.css" rel="stylesheet" type="text/css" />
+        <link href="<?=base_url()?>assets/images/favicon.webp" rel="apple-touch-icon" crossorigin="anonymous">
+        <link rel="manifest" href="/manifest.json">
 
         <!-- Open Graph data -->
         <meta property="fb:app_id" content="" />
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content="website" />
         <meta property="og:title" content="<?=$siteSetting['website_name']?>" />
         <meta property="og:description" content="<?=$siteSetting['description']?>" />
         <meta property="og:url" content="<?=base_url();?>" />

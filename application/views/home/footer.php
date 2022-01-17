@@ -1,3 +1,9 @@
+		
+		<div id="loader" class="loader-div" hidden>
+            <div class="loader-wrapper">
+                <img src="<?=base_url('assets/images/loader.gif')?>" width="120" heigth="120">
+            </div>
+        </div>
 		<div class="footer-div padding-bottom-30 ">
 			<div class="container container-hr">
 				<!-- logo -->
@@ -16,10 +22,14 @@
 		<!-- bundle -->
 		<script>
 			var base_url = '<?=base_url();?>';
-			var nonce = '<?=$nonce;?>'; 
+			var nonce = '<?=$nonce;?>';
 		</script>
-	    <script src="<?=base_url('assets/js/vendor.min.js')?>"></script>
-	    <script src="<?=base_url('assets/js/app.min.js')?>"></script>
-	    <script src="<?=base_url('assets/js/auth/_dev.js')?>"></script>
-
+	    <script src="<?=base_url('assets/js/jquery.min.js')?>"></script>
+	    <!-- <script src="<?=base_url('assets/js/app.min.js')?>"></script> -->
+ 	   	<script src="<?=base_url('assets/js/auth/_dev.js')?>"></script>
+		<script src="<?=base_url()?>assets/js/auth/_app.js"></script>
+		<script src="<?=base_url()?>assets/js/aos.js"></script>
+		<script>
+  			AOS.init();
+		</script>
 	</body>

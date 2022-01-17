@@ -11,6 +11,7 @@ class Main extends CI_Controller {
         $this->load->library('form_validation');
         $this->load->model('works_model');
         $this->load->model('site_settings_model');
+        $this->load->model('email_model');
     }
     public function index(){
     	$data['siteSetting'] = $this->site_settings_model->siteSettings();
@@ -21,8 +22,8 @@ class Main extends CI_Controller {
     	$this->load->view('home/footer');
     }
     public function getWorkList(){
-
-        if ($this->input->get('nonce') !== $this->session->nonce || empty($this->input->get('nonce'))) {
+        // $this->input->get('nonce') !== $this->session->nonce || 
+        if (empty($this->input->get('nonce'))) {
             $data['status'] = 401;
             $data['message'] = "Action not allowed!";
         }
@@ -82,6 +83,15 @@ class Main extends CI_Controller {
     }
     public function cv(){
         header('location:'.base_url('assets/pdf/kkp_resume_v1.pdf'));
+    }
+
+    public function sendEmailNotification(){
+        $this->email_model->sendEmailNotification();
+        $data = array(
+            'status'=>'success',
+            'message'=>'Email successfully sent!'
+        );
+        $this->output->set_content_type('application/json')->set_output(json_encode($data));
     }
 
 }

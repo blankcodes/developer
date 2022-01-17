@@ -16,4 +16,5 @@ class Site_settings_model extends CI_Model {
 	    $this->session->set_userdata('nonce', $nonce);
     	return $nonce;
     }
+    
 }

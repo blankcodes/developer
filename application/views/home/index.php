@@ -56,18 +56,18 @@
 
 	<div class="body-container padding-top-70 padding-bottom-30 c-dwhite"  >
 		<div class="container">
-			<div class="font-courier font-15 c-dev" id="services">/ Services {}</div>
-			<h2>Services offered</h2>
+			<div class="font-courier font-15 c-dev services" id="services">/ Services {}</div>
+			<h2>Services Offered</h2>
 			<!-- <p>Services I offered </p> -->
-			<div class="row mt-2" >
-				<div class="col-md-4 dev-service-container">
+			<div class="row mt-2">
+				<div class="col-md-4 dev-service-container" data-aos="fade-right" data-aos-duration="1000">
 					<div class="card  " id="_web_development">
 						<div class="card-body text-center padding-bottom-80 padding-top-80">
 							<h3 class="font-15"><i class="mdi mdi-web"></i> Web Development</h3>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 dev-service-container">
+				<div class="col-md-4 dev-service-container" data-aos="fade-up" data-aos-duration="1000">
 					<div class="card" id="_seo">
 						<div class="card-body text-center padding-bottom-80 padding-top-80">
 							<h3 class="font-15"><i class="mdi mdi-cog-refresh-outline"></i> Search Engine Optimization</h3>
@@ -75,7 +75,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-4 ">
+				<div class="col-md-4 " data-aos="fade-left" data-aos-duration="1000">
 					<div class="card" id="_graphic_design" >
 						<div class="card-body text-center padding-bottom-80 padding-top-80">
 							<h3 class="font-15"><i class="mdi mdi-laptop-mac"></i> Graphic Design</h3>
@@ -90,7 +90,7 @@
 			<div class="font-courier font-15 c-dev mt-5" id="works">/ Works {}</div>
 			<h2>Previous Works</h2>
 			<!-- <p>These are my previous works along my journey.</p> -->
-			<div class="row mt-2" id="_works_list">
+			<div class="row mt-2" id="_works_list" data-aos="fade-up" data-aos-duration="2000">
 
 			</div>
 			<div class="mt-1" id="_works_list_pagination">
@@ -99,7 +99,7 @@
 
 			<div class="mt-3" id="">
 				<div class="font-courier font-15 c-dev mt-5" id="works">/ Payment Gateway Integrations {}</div>
-				<div class="mt-1 row">
+				<div class="mt-1 row" data-aos="fade-up" data-aos-duration="3000">
 					<div class="col-md-3 dev-service-container">
 						<div class="margin-bottom-20 margin-top-10  cursor-pointer">  
 							<div id="featured-style" class=" img-scale-animate" onclick="">
@@ -155,7 +155,7 @@
 				<div class="col-lg-6 ">
 					<div class="font-courier font-15 c-dev">/ Contact Me  {}</div>
 					<div class="mt-3">
-						<h2 class="contact-title">Got a project? <br>Let's talk.</h2>
+						<h2 class="contact-title">Got a Project? <br>Let's talk.</h2>
 					</div>
 				</div>
 
@@ -169,3 +169,34 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Mobile Nav -->
+    <div id="mobile-view" class="mobile-menu hide-mmenu">
+        <nav class="mobile-bottom-nav row">
+            <div class="col-4 col-md-4">
+                <div class="mobile-nav-btn mobile-menu-home" onclick="_accessPage('<?=base_url('#_home')?>')">
+                    <i class="uil-home-alt active"></i> 
+                    <div class="mt--28 btn-text active">
+                        <small>Home</small>
+                    </div>
+                </div>      
+            </div>
+            <div class="col-4 col-md-4">
+                <div class="mobile-nav-btn mobile-menu-services" onclick="_accessPage('<?=base_url('#services')?>')">
+                    <i class="uil-layer-group "></i>
+                    <div class="mt--28 btn-text">
+                        <small>Services</small>
+                     </div>
+                </div>      
+            </div>
+            <div class="col-4 col-md-4">       
+                <div class="mobile-nav-btn mobile-menu-works" onclick="_accessPage('<?=base_url('#works')?>')">
+                    <i class="uil-list-ui-alt "></i> <span class="bounce bg-success" id="mobile_nav_cart_alert"></span>
+                    <div class="mt--28 btn-text">
+                        <small>Works</small>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- End Mobile Nav -->

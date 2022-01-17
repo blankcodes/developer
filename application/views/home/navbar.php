@@ -1,15 +1,15 @@
 
-    <div class="dev-nav-bg">
+    <div class="dev-nav-bg"  id="_home">
         <!-- NAVBAR START -->
         <nav class="navbar navbar-expand-lg py-lg-3 navbar-dark">
             <div class="container">
 
                 <!-- logo -->
                 <a href="" class="navbar-brand me-lg-5">
-                    <img src="<?=base_url('assets/images/favicon.png')?>" alt="Ken Karlo: Developer" class="logo-dark" height="89" />
+                    <img src="<?=base_url('assets/images/favicon.webp')?>" alt="Ken Karlo: Developer" class="logo-dark" height="89" />
                 </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                <button class="navbar-toggler" id="web-view" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span id="_open_navbar_menu">☰</span>
                     <span id="_close_navbar_menu" hidden="hidden">✕</span>

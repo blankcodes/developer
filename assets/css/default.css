@@ -1649,13 +1649,13 @@ body{
   }
   .mobile-nav-btn{
     text-align: center;
-    padding: 10px 20px;
+    padding: 7px 20px;
     font-size: 30px;
     cursor: pointer;
     position: relative;
   }
   .mobile-nav-btn .active{
-    color: #05cb62  ;
+    color: #3699ff;
   }
 }
 @media only screen and (max-width: 415px) {
@@ -1673,12 +1673,12 @@ body{
   }
   .mobile-nav-btn{
     text-align: center;
-    padding: 12px 5px;
+    padding: 6px 5px;
     font-size: 30px;
     cursor: pointer;
   }
   .mobile-nav-btn .active{
-    color: #05cb62  ;
+    color: #3699ff  ;
   }
 }
 .badge {
@@ -2362,4 +2362,14 @@ body{
   bottom: 10%; left: 5%;
   display: inline-block;
   z-index: 10;
+}
+.show-mmenu {
+  display: block;
+  background-color: #fff;
+  transition: background 1s ;
+}
+.hide-mmenu {
+  display: none;
+  background-color: #fff;
+  transition: background 1s ;
 }
